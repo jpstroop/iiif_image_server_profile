@@ -1,2 +1,2 @@
-iiif_image_server_profile
+IIIF Image Server Profile
 =========================

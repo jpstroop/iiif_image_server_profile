@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://iiif.io/api/image#",
+    "xsd" :" http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://libimages.princeton.edu/loris",
+  "supportsRegionByPct": {
+    "@value": "true",
+    "@type": "xsd:boolean"
+  },
+  "supportsRegionByPx": {
+    "@value": "true",
+    "@type": "xsd:boolean"
+  },
+  "supportsRotationBy90s": {
+    "@value": "true",
+    "@type": "xsd:boolean"
+  },
+  "supportsRotationArbitrary": {
+    "@value": "true",
+    "@type": "xsd:boolean"
+  }
+}
