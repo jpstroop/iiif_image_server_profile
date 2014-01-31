@@ -1,23 +1,24 @@
 {
   "@context": {
     "@vocab": "http://iiif.io/api/image#",
-    "xsd" :" http://www.w3.org/2001/XMLSchema#"
+    "xsd" :" http://www.w3.org/2001/XMLSchema#",
+    "supportsRegionByPct" : {"@type": "xsd:boolean"},
+    "supportsRegionByPx" : {"@type": "xsd:boolean"},
+    "supportsSizeByW" : {"@type": "xsd:boolean"},
+    "supportsSizeByH" : {"@type": "xsd:boolean"},
+    "supportsSizeByWH" : {"@type": "xsd:boolean"},
+    "supportsSizeByPct" : {"@type": "xsd:boolean"},  
+    "feature01325" : {"@type": "xsd:boolean"},    
+    "supportsRotationBy90s" : {"@type": "xsd:boolean"},
+    "supportsRotationArbitrary" : {"@type": "xsd:boolean"},
+    "supportsPOST" : {"@type": "xsd:boolean"},
+    "supportsPUT" : {"@type": "xsd:boolean"},
+    "supportsDELETE" : {"@type": "xsd:boolean"}
   },
   "@id": "http://libimages.princeton.edu/loris",
-  "supportsRegionByPct": {
-    "@value": "true",
-    "@type": "xsd:boolean"
-  },
-  "supportsRegionByPx": {
-    "@value": "true",
-    "@type": "xsd:boolean"
-  },
-  "supportsRotationBy90s": {
-    "@value": "true",
-    "@type": "xsd:boolean"
-  },
-  "supportsRotationArbitrary": {
-    "@value": "true",
-    "@type": "xsd:boolean"
-  }
+  "supportsRegionByPct": "true",
+  "supportsRegionByPx": "true",
+  "supportsRotationBy90s": "true",
+  "supportsRotationArbitrary": "true",
+  "contact" : "mailto:azaroth42@gmail.com"
 }
