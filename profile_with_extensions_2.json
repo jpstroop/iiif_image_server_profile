@@ -6,6 +6,7 @@
     "DELETE" : { "@type" : "xsd:boolean" },
     "POST" : { "@type" : "xsd:boolean" },
     "PUT" : { "@type" : "xsd:boolean" },
+    "enabled" : { "@type" : "xsd:boolean" },
     "feature01325" : { "@type" : "xsd:boolean" },
     "regionByPct" : { "@type" : "xsd:boolean" },
     "regionByPx" : { "@type" : "xsd:boolean" },
@@ -32,10 +33,12 @@
     // Does "extensions" need a @type?
     {
       "@id" : "http://libimages.princeton.edu/loris#myCoolFeature",
+      "enabled" : "true",
       "description" : "It slices, it dices!"
     },
     {
       "@id" : "http://libimages.princeton.edu/loris#myNextCoolFeature",
+      "enabled" : "false",
       "description" : "It even does the dishes"
     }
   ]
