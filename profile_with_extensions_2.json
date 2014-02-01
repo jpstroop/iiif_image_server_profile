@@ -1,8 +1,8 @@
 {
   "@context" : {
     "@vocab" : "http://iiif.io/api/image-api#",
-    "dc": "http://purl.org/dc/terms/",
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "description": "http://purl.org/dc/terms/description",
     "DELETE" : { "@type" : "xsd:boolean" },
     "POST" : { "@type" : "xsd:boolean" },
     "PUT" : { "@type" : "xsd:boolean" },
@@ -31,11 +31,11 @@
   "extensions" : [
     {
       "@id" : "http://libimages.princeton.edu/loris#myCoolFeature",
-      "dc:description" : "It slices, it dices!"
+      "description" : "It slices, it dices!"
     },
     {
       "@id" : "http://libimages.princeton.edu/loris#myNextCoolFeature",
-      "dc:description" : "It even does the dishes"
+      "description" : "It even does the dishes"
     }
   ]
 }
