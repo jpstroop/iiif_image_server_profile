@@ -29,6 +29,7 @@
   "sizeByW" : "true",
   "sizeByWH" : "true",
   "extensions" : [
+    // Does "extensions" need a @type?
     {
       "@id" : "http://libimages.princeton.edu/loris#myCoolFeature",
       "description" : "It slices, it dices!"
