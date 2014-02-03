@@ -1,0 +1,36 @@
+@prefix : <http://iiif.io/api/image-api#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://libimages.princeton.edu/loris> :contact "mailto:azaroth42@gmail.com" ;
+    :supports [ a :SizeByH ;
+            :enabled true ],
+        [ a <http://github.com/pulibrary/lorisWaterMarking> ;
+            :description "Stupid DRM watermarking" ;
+            :enabled true ],
+        [ a :SizeByW ;
+            :enabled true ],
+        [ a :SizeByPct ;
+            :enabled true ],
+        [ a :RotationBy90s ;
+            :enabled true ],
+        [ a :RegionByPct ;
+            :enabled true ],
+        [ a :RotationArbitrary ;
+            :enabled true ],
+        [ a :RegionByPct ;
+            :enabled true ],
+        [ a :RotationBy90s ;
+            :enabled true ],
+        [ a :RotationArbitrary ;
+            :enabled true ],
+        [ a :RegionByPx ;
+            :enabled true ],
+        [ a :SizeByWH ;
+            :enabled true ],
+        [ a :SizeByForcedWH ;
+            :enabled true ],
+        [ a :RegionByPx ;
+            :enabled true ] .

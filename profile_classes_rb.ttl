@@ -1,0 +1,30 @@
+<http://libimages.princeton.edu/loris> <http://iiif.io/api/image-api#contact> "mailto:azaroth42@gmail.com";
+   <http://iiif.io/api/image-api#supports> [ a <http://iiif.io/api/image-api#RegionByPct>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#RegionByPct>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#RegionByPx>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#RegionByPx>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#RotationArbitrary>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#RotationArbitrary>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#RotationBy90s>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#RotationBy90s>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#SizeByForcedWH>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#SizeByH>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#SizeByPct>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#SizeByW>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://iiif.io/api/image-api#SizeByWH>;
+     <http://iiif.io/api/image-api#enabled> true],
+     [ a <http://github.com/pulibrary/lorisWaterMarking>;
+     <http://iiif.io/api/image-api#description> "Stupid DRM watermarking";
+     <http://iiif.io/api/image-api#enabled> true] .

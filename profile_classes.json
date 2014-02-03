@@ -1,0 +1,29 @@
+{
+  "@context" : {
+    "@vocab" : "http://iiif.io/api/image-api#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "loris" : "http://github.com/pulibrary/loris",
+    "DELETE" : { "@type" : "xsd:boolean" },
+    "POST" : { "@type" : "xsd:boolean" },
+    "PUT" : { "@type" : "xsd:boolean" },
+    "enabled" : { "@type" : "xsd:boolean" }
+  },
+  "@id" : "http://libimages.princeton.edu/loris",
+  "contact" : "mailto:azaroth42@gmail.com",
+  "supports" : [
+    { "@type" : "RegionByPct", "enabled" : "true" },
+    { "@type" : "RegionByPct", "enabled" : "true" },
+    { "@type" : "RegionByPx", "enabled" : "true" },
+    { "@type" : "RegionByPx", "enabled" : "true" },
+    { "@type" : "RotationArbitrary", "enabled" : "true" },
+    { "@type" : "RotationArbitrary", "enabled" : "true" },
+    { "@type" : "RotationBy90s", "enabled" : "true" },
+    { "@type" : "RotationBy90s", "enabled" : "true" },
+    { "@type" : "SizeByForcedWH", "enabled" : "true" },
+    { "@type" : "SizeByH", "enabled" : "true" },
+    { "@type" : "SizeByPct", "enabled" : "true" }, 
+    { "@type" : "SizeByW", "enabled" : "true" },
+    { "@type" : "SizeByWH", "enabled" : "true" },
+    { "@type" : "loris:WaterMarking", "enabled" : "true", "description" : "Stupid DRM watermarking"}
+  ]
+}
