@@ -18,8 +18,8 @@
     :sizeByPct true ;
     :sizeByW true ;
     :sizeByWH true ;
-    ns1:myCoolFeature "true" ;
-    ns1:myNextCoolFeature "true" .
+    ns1:myCoolFeature true ;
+    ns1:myNextCoolFeature true .
 
 ns1:myCoolFeature ns2:description "It slices, it dices!" .
 
