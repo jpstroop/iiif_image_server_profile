@@ -16,7 +16,9 @@
     "sizeByH" : { "@type" : "xsd:boolean" },
     "sizeByPct" : { "@type" : "xsd:boolean" },
     "sizeByW" : { "@type" : "xsd:boolean" },
-    "sizeByWH" : { "@type" : "xsd:boolean" }
+    "sizeByWH" : { "@type" : "xsd:boolean" },
+    "http://libimages.princeton.edu/loris#myCoolFeature" :  { "@type" : "xsd:boolean" },
+    "http://libimages.princeton.edu/loris#myNextCoolFeature" :  { "@type" : "xsd:boolean" }
   },
   "@id" : "http://libimages.princeton.edu/loris",
   "contact" : "mailto:azaroth42@gmail.com",
