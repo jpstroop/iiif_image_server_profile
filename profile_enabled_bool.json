@@ -1,0 +1,25 @@
+{
+  "@context" : {
+    "@vocab" : "http://iiif.io/api/image-api#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "loris" : "http://github.com/pulibrary/loris",
+    "description": "http://purl.org/dc/terms/description",
+    "enabled" : { "@type" : "xsd:boolean" }
+  },
+  "@id" : "http://libimages.princeton.edu/loris",
+  "contact" : "mailto:azaroth42@gmail.com",
+  "regionByPct" : { "enabled" : "true" },
+  "regionByPct" : { "enabled" : "true" },
+  "regionByPx" : { "enabled" : "true" },
+  "regionByPx" : { "enabled" : "true" },
+  "rotationArbitrary" : { "enabled" : "true" },
+  "rotationArbitrary" : { "enabled" : "true" },
+  "rotationBy90s" : { "enabled" : "true" },
+  "rotationBy90s" : { "enabled" : "true" },
+  "sizeByForcedWH" : { "enabled" : "true" },
+  "sizeByH" : { "enabled" : "true" },
+  "sizeByPct" : { "enabled" : "true" },
+  "sizeByW" : { "enabled" : "true" },
+  "sizeByWH" : { "enabled" : "true" },
+  "loris:watermarking" : { "enabled" : "true", "description" : "Stupid DRM watermarking" }
+}
