@@ -1,0 +1,26 @@
+@prefix : <http://iiif.io/api/image-api#> .
+@prefix ns1: <http://libimages.princeton.edu/loris#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://libimages.princeton.edu/loris> :contact "mailto:azaroth42@gmail.com" ;
+    :extensions ns1:myCoolFeature,
+        ns1:myNextCoolFeature ;
+    :regionByPct true ;
+    :regionByPx true ;
+    :rotationArbitrary true ;
+    :rotationBy90s true ;
+    :sizeByForcedWH true ;
+    :sizeByH true ;
+    :sizeByPct true ;
+    :sizeByW true ;
+    :sizeByWH true ;
+    ns1:myCoolFeature "true" ;
+    ns1:myNextCoolFeature "true" .
+
+ns1:myCoolFeature ns2:description "It slices, it dices!" .
+
+ns1:myNextCoolFeature ns2:description "It even does the dishes" .

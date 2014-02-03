@@ -1,0 +1,18 @@
+<http://libimages.princeton.edu/loris> <http://iiif.io/api/image-api#contact> "mailto:azaroth42@gmail.com";
+   <http://iiif.io/api/image-api#extensions> <http://libimages.princeton.edu/loris#myCoolFeature>,
+     <http://libimages.princeton.edu/loris#myNextCoolFeature>;
+   <http://iiif.io/api/image-api#regionByPct> true;
+   <http://iiif.io/api/image-api#regionByPx> true;
+   <http://iiif.io/api/image-api#rotationArbitrary> true;
+   <http://iiif.io/api/image-api#rotationBy90s> true;
+   <http://iiif.io/api/image-api#sizeByForcedWH> true;
+   <http://iiif.io/api/image-api#sizeByH> true;
+   <http://iiif.io/api/image-api#sizeByPct> true;
+   <http://iiif.io/api/image-api#sizeByW> true;
+   <http://iiif.io/api/image-api#sizeByWH> true;
+   <http://libimages.princeton.edu/loris#myCoolFeature> "true";
+   <http://libimages.princeton.edu/loris#myNextCoolFeature> "true" .
+
+<http://libimages.princeton.edu/loris#myCoolFeature> <http://purl.org/dc/terms/description> "It slices, it dices!" .
+
+<http://libimages.princeton.edu/loris#myNextCoolFeature> <http://purl.org/dc/terms/description> "It even does the dishes" .
