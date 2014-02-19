@@ -2,6 +2,7 @@
   "@context" : {
     "@vocab" : "http://iiif.io/api/image-api#",
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "contentNegotiation" : { "@type" : "xsd:boolean" },
     "description": "http://purl.org/dc/terms/description",
     "DELETE" : { "@type" : "xsd:boolean" },
     "POST" : { "@type" : "xsd:boolean" },
@@ -22,6 +23,7 @@
   },
   "@id" : "http://libimages.princeton.edu/loris",
   "contact" : "mailto:azaroth42@gmail.com",
+  "contentNegotiation" : "true",
   "regionByPct" : "true",
   "regionByPx" : "true",
   "rotationArbitrary" : "true",
