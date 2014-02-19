@@ -2,11 +2,11 @@
   "@context" : {
     "@vocab" : "http://iiif.io/api/image-api#",
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
-    "contentNegotiation" : { "@type" : "xsd:boolean" },
     "description": "http://purl.org/dc/terms/description",
     "DELETE" : { "@type" : "xsd:boolean" },
     "POST" : { "@type" : "xsd:boolean" },
     "PUT" : { "@type" : "xsd:boolean" },
+    "contentNegotiation" : { "@type" : "xsd:boolean" },
     "enabled" : { "@type" : "xsd:boolean" },
     "feature01325" : { "@type" : "xsd:boolean" },
     "regionByPct" : { "@type" : "xsd:boolean" },
